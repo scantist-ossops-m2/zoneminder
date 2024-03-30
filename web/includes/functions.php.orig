@@ -2107,8 +2107,4 @@ function getStreamHTML( $monitor, $scale=100 ) {
     }
 } // end function getStreamHTML
 
-function csrf_startup() {
-    csrf_conf('rewrite-js', 'includes/csrf/csrf-magic.js');
-}
-
 ?>
