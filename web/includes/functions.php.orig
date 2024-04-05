@@ -411,7 +411,7 @@ function makePopupLink( $url, $winName, $winSize, $label, $condition=1, $options
   } else {
     $string .= '<a>';
   }
-  $string .= htmlspecialchars($label, ENT_COMPAT | ENT_HTML401, ini_get("default_charset"), false);
+  $string .= $label;
   $string .= '</a>';
   return( $string );
 }
