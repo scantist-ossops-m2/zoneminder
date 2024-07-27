@@ -2455,8 +2455,4 @@ function validHtmlStr( $input )
     return( htmlspecialchars( $input, ENT_QUOTES ) );
 }
 
-function csrf_startup() {
-    csrf_conf('rewrite-js', 'includes/csrf/csrf-magic.js');
-}
-
 ?>
